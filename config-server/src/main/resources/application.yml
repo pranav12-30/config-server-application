@@ -6,6 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/pranav12-30/application-config
+          username: pranav12-30
+          password: ${pass}
+
 
 server:
   port: 8888
